@@ -1,0 +1,14 @@
+name: hello-world
+
+on: push
+
+jobs:
+  hello-world-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run checkout action
+        uses: actions/checkout@v4
+
+      - name: Echo content of hello_world.txt
+        run: echo "$(cat hello_world.txt)" 
