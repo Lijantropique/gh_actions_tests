@@ -1,7 +1,7 @@
 import yaml
 
 # Open the YAML file in read mode
-with open('config.yaml', 'r') as file:
+with open('./src/config.yaml', 'r') as file:
     # Load the YAML content into a Python dictionary
     data = yaml.safe_load(file)
 
