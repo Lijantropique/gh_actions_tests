@@ -1,0 +1,4 @@
+a: value_of_a
+b: another_value
+c:
+  nested_key: nested_value
